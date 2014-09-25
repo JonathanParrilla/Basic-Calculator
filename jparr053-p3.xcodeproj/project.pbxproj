@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CC4DFF3189B5AB700903A6E /* JPCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4DFF2189B5AB700903A6E /* JPCalculator.m */; };
+		3CC4DFF6189B5DDB00903A6E /* JPFraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC4DFF5189B5DDB00903A6E /* JPFraction.m */; };
+		3CDD018D189A15400022DA2C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD018C189A15400022DA2C /* UIKit.framework */; };
+		3CDD018F189A15400022DA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD018E189A15400022DA2C /* Foundation.framework */; };
+		3CDD0191189A15400022DA2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CDD0190189A15400022DA2C /* CoreGraphics.framework */; };
+		3CDD0197189A15400022DA2C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CDD0195189A15400022DA2C /* InfoPlist.strings */; };
+		3CDD0199189A15400022DA2C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDD0198189A15400022DA2C /* main.m */; };
+		3CDD019D189A15400022DA2C /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDD019C189A15400022DA2C /* JPAppDelegate.m */; };
+		3CDD019F189A15400022DA2C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDD019E189A15400022DA2C /* Default.png */; };
+		3CDD01A1189A15400022DA2C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDD01A0189A15400022DA2C /* Default@2x.png */; };
+		3CDD01A3189A15400022DA2C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDD01A2189A15400022DA2C /* Default-568h@2x.png */; };
+		3CDD01A6189A15400022DA2C /* JPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDD01A5189A15400022DA2C /* JPViewController.m */; };
+		3CDD01A9189A15400022DA2C /* JPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CDD01A7189A15400022DA2C /* JPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CC4DFF1189B5AB700903A6E /* JPCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPCalculator.h; sourceTree = "<group>"; };
+		3CC4DFF2189B5AB700903A6E /* JPCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPCalculator.m; sourceTree = "<group>"; };
+		3CC4DFF4189B5DDB00903A6E /* JPFraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPFraction.h; sourceTree = "<group>"; };
+		3CC4DFF5189B5DDB00903A6E /* JPFraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPFraction.m; sourceTree = "<group>"; };
+		3CDD0189189A15400022DA2C /* jparr053-p3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jparr053-p3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CDD018C189A15400022DA2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3CDD018E189A15400022DA2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3CDD0190189A15400022DA2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3CDD0194189A15400022DA2C /* jparr053-p3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jparr053-p3-Info.plist"; sourceTree = "<group>"; };
+		3CDD0196189A15400022DA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3CDD0198189A15400022DA2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CDD019A189A15400022DA2C /* jparr053-p3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jparr053-p3-Prefix.pch"; sourceTree = "<group>"; };
+		3CDD019B189A15400022DA2C /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
+		3CDD019C189A15400022DA2C /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
+		3CDD019E189A15400022DA2C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3CDD01A0189A15400022DA2C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3CDD01A2189A15400022DA2C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3CDD01A4189A15400022DA2C /* JPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPViewController.h; sourceTree = "<group>"; };
+		3CDD01A5189A15400022DA2C /* JPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPViewController.m; sourceTree = "<group>"; };
+		3CDD01A8189A15400022DA2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CDD0186189A15400022DA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDD018D189A15400022DA2C /* UIKit.framework in Frameworks */,
+				3CDD018F189A15400022DA2C /* Foundation.framework in Frameworks */,
+				3CDD0191189A15400022DA2C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CDD0180189A15400022DA2C = {
+			isa = PBXGroup;
+			children = (
+				3CDD0192189A15400022DA2C /* jparr053-p3 */,
+				3CDD018B189A15400022DA2C /* Frameworks */,
+				3CDD018A189A15400022DA2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CDD018A189A15400022DA2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CDD0189189A15400022DA2C /* jparr053-p3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CDD018B189A15400022DA2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CDD018C189A15400022DA2C /* UIKit.framework */,
+				3CDD018E189A15400022DA2C /* Foundation.framework */,
+				3CDD0190189A15400022DA2C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CDD0192189A15400022DA2C /* jparr053-p3 */ = {
+			isa = PBXGroup;
+			children = (
+				3CDD019B189A15400022DA2C /* JPAppDelegate.h */,
+				3CDD019C189A15400022DA2C /* JPAppDelegate.m */,
+				3CDD01A4189A15400022DA2C /* JPViewController.h */,
+				3CDD01A5189A15400022DA2C /* JPViewController.m */,
+				3CDD01A7189A15400022DA2C /* JPViewController.xib */,
+				3CDD0193189A15400022DA2C /* Supporting Files */,
+				3CC4DFF1189B5AB700903A6E /* JPCalculator.h */,
+				3CC4DFF2189B5AB700903A6E /* JPCalculator.m */,
+				3CC4DFF4189B5DDB00903A6E /* JPFraction.h */,
+				3CC4DFF5189B5DDB00903A6E /* JPFraction.m */,
+			);
+			path = "jparr053-p3";
+			sourceTree = "<group>";
+		};
+		3CDD0193189A15400022DA2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CDD0194189A15400022DA2C /* jparr053-p3-Info.plist */,
+				3CDD0195189A15400022DA2C /* InfoPlist.strings */,
+				3CDD0198189A15400022DA2C /* main.m */,
+				3CDD019A189A15400022DA2C /* jparr053-p3-Prefix.pch */,
+				3CDD019E189A15400022DA2C /* Default.png */,
+				3CDD01A0189A15400022DA2C /* Default@2x.png */,
+				3CDD01A2189A15400022DA2C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CDD0188189A15400022DA2C /* jparr053-p3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDD01AC189A15400022DA2C /* Build configuration list for PBXNativeTarget "jparr053-p3" */;
+			buildPhases = (
+				3CDD0185189A15400022DA2C /* Sources */,
+				3CDD0186189A15400022DA2C /* Frameworks */,
+				3CDD0187189A15400022DA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jparr053-p3";
+			productName = "jparr053-p3";
+			productReference = 3CDD0189189A15400022DA2C /* jparr053-p3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CDD0181189A15400022DA2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jonathan Parrilla";
+			};
+			buildConfigurationList = 3CDD0184189A15400022DA2C /* Build configuration list for PBXProject "jparr053-p3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CDD0180189A15400022DA2C;
+			productRefGroup = 3CDD018A189A15400022DA2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CDD0188189A15400022DA2C /* jparr053-p3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CDD0187189A15400022DA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDD0197189A15400022DA2C /* InfoPlist.strings in Resources */,
+				3CDD019F189A15400022DA2C /* Default.png in Resources */,
+				3CDD01A1189A15400022DA2C /* Default@2x.png in Resources */,
+				3CDD01A3189A15400022DA2C /* Default-568h@2x.png in Resources */,
+				3CDD01A9189A15400022DA2C /* JPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CDD0185189A15400022DA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDD0199189A15400022DA2C /* main.m in Sources */,
+				3CDD019D189A15400022DA2C /* JPAppDelegate.m in Sources */,
+				3CDD01A6189A15400022DA2C /* JPViewController.m in Sources */,
+				3CC4DFF3189B5AB700903A6E /* JPCalculator.m in Sources */,
+				3CC4DFF6189B5DDB00903A6E /* JPFraction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CDD0195189A15400022DA2C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDD0196189A15400022DA2C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3CDD01A7189A15400022DA2C /* JPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CDD01A8189A15400022DA2C /* en */,
+			);
+			name = JPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CDD01AA189A15400022DA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3CDD01AB189A15400022DA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CDD01AD189A15400022DA2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jparr053-p3/jparr053-p3-Prefix.pch";
+				INFOPLIST_FILE = "jparr053-p3/jparr053-p3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3CDD01AE189A15400022DA2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jparr053-p3/jparr053-p3-Prefix.pch";
+				INFOPLIST_FILE = "jparr053-p3/jparr053-p3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CDD0184189A15400022DA2C /* Build configuration list for PBXProject "jparr053-p3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDD01AA189A15400022DA2C /* Debug */,
+				3CDD01AB189A15400022DA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDD01AC189A15400022DA2C /* Build configuration list for PBXNativeTarget "jparr053-p3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CDD01AD189A15400022DA2C /* Debug */,
+				3CDD01AE189A15400022DA2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CDD0181189A15400022DA2C /* Project object */;
+}
